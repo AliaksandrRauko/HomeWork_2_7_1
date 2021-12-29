@@ -8,7 +8,7 @@
 import UIKit
 
 class DetailInformationViewController: UIViewController {
-
+    
     @IBOutlet weak var phoneLabel: UILabel!
     
     @IBOutlet weak var emailLabel: UILabel!
@@ -19,5 +19,6 @@ class DetailInformationViewController: UIViewController {
         super.viewDidLoad()
         phoneLabel.text = "Phone: \(personInfo.phone)"
         emailLabel.text = "Email: \(personInfo.email)"
+        navigationItem.title = personInfo.nameAndSurname
     }
 }

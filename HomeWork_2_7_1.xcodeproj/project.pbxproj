@@ -17,6 +17,7 @@
 		1E00B3F6277B1F0400C591B9 /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E00B3F5277B1F0400C591B9 /* PersonInfo.swift */; };
 		1EA4C48D277C449100BEA9B5 /* PersonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4C48C277C449100BEA9B5 /* PersonListTableViewController.swift */; };
 		1EA4C48F277C486500BEA9B5 /* DetailInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4C48E277C486500BEA9B5 /* DetailInformationViewController.swift */; };
+		1EA4C491277C55D300BEA9B5 /* RersonInformationTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4C490277C55D300BEA9B5 /* RersonInformationTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1E00B3F5277B1F0400C591B9 /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
 		1EA4C48C277C449100BEA9B5 /* PersonListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListTableViewController.swift; sourceTree = "<group>"; };
 		1EA4C48E277C486500BEA9B5 /* DetailInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInformationViewController.swift; sourceTree = "<group>"; };
+		1EA4C490277C55D300BEA9B5 /* RersonInformationTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RersonInformationTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +68,11 @@
 			children = (
 				1E00B3D5277B006A00C591B9 /* AppDelegate.swift */,
 				1E00B3D7277B006A00C591B9 /* SceneDelegate.swift */,
+				1EA4C490277C55D300BEA9B5 /* RersonInformationTabBarController.swift */,
 				1EA4C48C277C449100BEA9B5 /* PersonListTableViewController.swift */,
 				1E00B3F0277B14F900C591B9 /* PersonsContactTableViewController.swift */,
-				1E00B3DB277B006A00C591B9 /* Main.storyboard */,
 				1EA4C48E277C486500BEA9B5 /* DetailInformationViewController.swift */,
+				1E00B3DB277B006A00C591B9 /* Main.storyboard */,
 				1E00B3DE277B006B00C591B9 /* Assets.xcassets */,
 				1E00B3E0277B006B00C591B9 /* LaunchScreen.storyboard */,
 				1E00B3E3277B006B00C591B9 /* Info.plist */,
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E00B3EB277B022C00C591B9 /* DataManager.swift in Sources */,
+				1EA4C491277C55D300BEA9B5 /* RersonInformationTabBarController.swift in Sources */,
 				1E00B3D6277B006A00C591B9 /* AppDelegate.swift in Sources */,
 				1EA4C48D277C449100BEA9B5 /* PersonListTableViewController.swift in Sources */,
 				1E00B3D8277B006A00C591B9 /* SceneDelegate.swift in Sources */,
