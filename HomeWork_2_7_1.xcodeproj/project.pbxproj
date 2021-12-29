@@ -66,16 +66,10 @@
 		1E00B3D4277B006A00C591B9 /* HomeWork_2_7_1 */ = {
 			isa = PBXGroup;
 			children = (
-				1E00B3D5277B006A00C591B9 /* AppDelegate.swift */,
-				1E00B3D7277B006A00C591B9 /* SceneDelegate.swift */,
-				1EA4C490277C55D300BEA9B5 /* RersonInformationTabBarController.swift */,
-				1EA4C48C277C449100BEA9B5 /* PersonListTableViewController.swift */,
-				1E00B3F0277B14F900C591B9 /* PersonsContactTableViewController.swift */,
-				1EA4C48E277C486500BEA9B5 /* DetailInformationViewController.swift */,
-				1E00B3DB277B006A00C591B9 /* Main.storyboard */,
-				1E00B3DE277B006B00C591B9 /* Assets.xcassets */,
-				1E00B3E0277B006B00C591B9 /* LaunchScreen.storyboard */,
-				1E00B3E3277B006B00C591B9 /* Info.plist */,
+				1EA4C492277CA56B00BEA9B5 /* ViewControllers */,
+				1EA4C493277CA59F00BEA9B5 /* Storyboards */,
+				1EA4C495277CA5DB00BEA9B5 /* Resources */,
+				1EA4C494277CA5BB00BEA9B5 /* SupportFiles */,
 				1E00B3F2277B1E4B00C591B9 /* Models */,
 				1E00B3E9277B01EC00C591B9 /* Services */,
 			);
@@ -96,6 +90,44 @@
 				1E00B3F5277B1F0400C591B9 /* PersonInfo.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1EA4C492277CA56B00BEA9B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4C490277C55D300BEA9B5 /* RersonInformationTabBarController.swift */,
+				1EA4C48C277C449100BEA9B5 /* PersonListTableViewController.swift */,
+				1E00B3F0277B14F900C591B9 /* PersonsContactTableViewController.swift */,
+				1EA4C48E277C486500BEA9B5 /* DetailInformationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EA4C493277CA59F00BEA9B5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1E00B3E0277B006B00C591B9 /* LaunchScreen.storyboard */,
+				1E00B3DB277B006A00C591B9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1EA4C494277CA5BB00BEA9B5 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1E00B3E3277B006B00C591B9 /* Info.plist */,
+				1E00B3D7277B006A00C591B9 /* SceneDelegate.swift */,
+				1E00B3D5277B006A00C591B9 /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		1EA4C495277CA5DB00BEA9B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E00B3DE277B006B00C591B9 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,7 +359,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7HT3STQ75T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork_2_7_1/Info.plist;
+				INFOPLIST_FILE = HomeWork_2_7_1/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -355,7 +387,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7HT3STQ75T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork_2_7_1/Info.plist;
+				INFOPLIST_FILE = HomeWork_2_7_1/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

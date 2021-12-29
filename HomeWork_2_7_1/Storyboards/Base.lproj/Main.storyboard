@@ -96,7 +96,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="au8-ht-ePf" kind="relationship" relationship="viewControllers" id="mWy-0q-80H"/>
-                        <segue destination="zJp-Pa-H3N" kind="relationship" relationship="viewControllers" id="SNX-0b-EFT"/>
+                        <segue destination="8om-kK-DbH" kind="relationship" relationship="viewControllers" id="SNX-0b-EFT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqu-Bk-Hur" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -135,12 +135,11 @@
                             <outlet property="delegate" destination="zJp-Pa-H3N" id="2xv-wM-yIA"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Contacts" image="person" catalog="system" selectedImage="person" id="UDL-Ys-KHs"/>
                     <navigationItem key="navigationItem" title="Persons List" id="6NX-qV-O45"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WRE-Kq-UWh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1249" y="104"/>
+            <point key="canvasLocation" x="2157.971014492754" y="103.79464285714285"/>
         </scene>
         <!--Home contacts-->
         <scene sceneID="DyI-Wy-7tT">
@@ -160,6 +159,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s7I-Ai-XlM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2159.4202898550725" y="-592.63392857142856"/>
+        </scene>
+        <!--Contacts-->
+        <scene sceneID="x3F-0u-aJI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8om-kK-DbH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person" catalog="system" selectedImage="person" id="UDL-Ys-KHs"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IPg-sG-FFm">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zJp-Pa-H3N" kind="relationship" relationship="rootViewController" id="83n-rT-z99"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mnl-S1-VOB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1247.8260869565217" y="103.79464285714285"/>
         </scene>
     </scenes>
     <resources>

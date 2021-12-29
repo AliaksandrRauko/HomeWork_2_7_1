@@ -29,6 +29,7 @@ extension PersonInfo {
         let phones = DataManager.Shared.phones.shuffled()
         var person = [PersonInfo]()
         
+        // на нормальный рандом не хватило времени (:
         for number in 0...names.count - 1 {
             person.append(PersonInfo(name: names[number], surname: surnames[number],
                                      email: emails[number], phone: phones[number]))

@@ -11,6 +11,10 @@ class RersonInformationTabBarController: UITabBarController {
     
     var personList = PersonInfo.getPersonsList()
     
+    //Евгения:) я так и не понял, как из tabbar передать наш массив,
+    //я в след view вызываю новый массив и результаты естественно будет разными.
+    //поэтому буду с нетерпением ждать разбор домашнего задания!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
             //myFunc()
