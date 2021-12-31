@@ -9,12 +9,7 @@ import UIKit
 
 class PersonListTableViewController: UITableViewController {
     
-    //var personList: [PersonInfo]!
-    var personList = PersonInfo.getPersonsList()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+    var personList: [PersonInfo]!
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         personList.count

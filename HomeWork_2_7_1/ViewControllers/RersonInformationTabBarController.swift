@@ -9,30 +9,23 @@ import UIKit
 
 class RersonInformationTabBarController: UITabBarController {
     
-    var personList = PersonInfo.getPersonsList()
-    
-    //Евгения:) я так и не понял, как из tabbar передать наш массив,
-    //я в след view вызываю новый массив и результаты естественно будет разными.
-    //поэтому буду с нетерпением ждать разбор домашнего задания!
-    
+    let personList = PersonInfo.getPersonsList()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-            //myFunc()
-        // Do any additional setup after loading the view.
+            HandOverPersonInfo()
     }
 
-    func myFunc() {
-        
-        for viewController in tabBarController?.viewControllers ?? [] {
-            if let personListVS = viewController as? PersonListTableViewController {
-                personListVS.personList = personList
+    func HandOverPersonInfo() {
+        for viewController in viewControllers ?? [] {
+            if let navigationVS = viewController as? UINavigationController {
+                if let personListVC = navigationVS.topViewController as? PersonListTableViewController {
+                    personListVC.personList = personList
+                } else if let personContactVC = navigationVS.topViewController as? PersonContactTableViewController {
+                    personContactVC.personList = personList
+                }
             }
-//            else if let navigationVS = viewController as? UINavigationController {
-//                let userNameVS = navigationVS.topViewController as! UserNameViewController
-//                userNameVS.finalName = userTextField.text
-//            }
         }
-    }
-    
+    }    
     
 }

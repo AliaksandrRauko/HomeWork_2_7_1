@@ -23,14 +23,14 @@ extension PersonInfo {
     
     static func getPersonsList() -> [PersonInfo] {
         
-        let names = DataManager.Shared.names.shuffled()
-        let surnames = DataManager.Shared.surnames.shuffled()
-        let emails = DataManager.Shared.emails.shuffled()
-        let phones = DataManager.Shared.phones.shuffled()
+        let names = DataManager.shared.names.shuffled()
+        let surnames = DataManager.shared.surnames.shuffled()
+        let emails = DataManager.shared.emails.shuffled()
+        let phones = DataManager.shared.phones.shuffled()
         var person = [PersonInfo]()
         
         // на нормальный рандом не хватило времени (:
-        for number in 0...names.count - 1 {
+        for number in 0..<names.count {
             person.append(PersonInfo(name: names[number], surname: surnames[number],
                                      email: emails[number], phone: phones[number]))
         }
